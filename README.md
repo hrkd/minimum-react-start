@@ -12,5 +12,6 @@ npm start
 ## build
 ```
 nvm use
+npm i
 npm run build
 ```
