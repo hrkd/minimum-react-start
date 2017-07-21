@@ -5,9 +5,15 @@ var glob = require("glob");
 module.exports = {
   content: path.resolve(__dirname, 'source'),
   devtool: 'cheap-module-source-map',
-  entry: './source/javascripts/index.js',
+  entry: {
+    common:'./source/javascripts/index.js',
+    sp:'./source/javascripts/index-sp.js',
+    pc:'./source/javascripts/index-pc.js',
+    splist:'./source/javascripts/list-sp.js',
+    pclist:'./source/javascripts/list-pc.js',
+  },
   output: {
-    filename: 'bundle.min.js'
+    filename: '[name].bundle.min.js'
   },
   module: {
     loaders: [
