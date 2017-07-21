@@ -4,10 +4,10 @@
     "production": {
       "cssPath": "/stylesheets/styles.min.css",
       "jsPath": "/javascripts/common.bundle.min.js",
-      "jsSpPath": "/javascripts/sp.bundle.js",
-      "jsPcPath": "/javascripts/pc.bundle.js",
-      "jsListSpPath": "/javascripts/splist.bundle.js",
-      "jsListPcPath": "/javascripts/pclist.bundle.js"
+      "jsSpPath": "/javascripts/sp.bundle.min.js",
+      "jsPcPath": "/javascripts/pc.bundle.min.js",
+      "jsListSpPath": "/javascripts/splist.bundle.min.js",
+      "jsListPcPath": "/javascripts/pclist.bundle.min.js"
     },
     "development": {
       "cssPath": "/stylesheets/styles.css",
