@@ -7,7 +7,7 @@
     },
     "development": {
       "cssPath": "/stylesheets/styles.css",
-      "jsPath": "bundle.js"
+      "jsPath": "/bundle.js"
     }
   }
 }

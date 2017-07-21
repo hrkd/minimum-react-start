@@ -10,7 +10,7 @@ import End from './pages/end';
 const init = ()=>{
   new Reducer();
 
-  get('mock/data.json').then( response => {
+  get('/mock/data.json').then( response => {
     APP_EE.emit('data.load', response.data);
   });
 
