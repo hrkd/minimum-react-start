@@ -3,11 +3,19 @@
   "config": {
     "production": {
       "cssPath": "/stylesheets/styles.min.css",
-      "jsPath": "/javascripts/bundle.min.js"
+      "jsPath": "/javascripts/common.bundle.min.js",
+      "jsSpPath": "/javascripts/sp.bundle.js",
+      "jsPcPath": "/javascripts/pc.bundle.js",
+      "jsListSpPath": "/javascripts/splist.bundle.js",
+      "jsListPcPath": "/javascripts/pclist.bundle.js"
     },
     "development": {
       "cssPath": "/stylesheets/styles.css",
-      "jsPath": "/bundle.js"
+      "jsPath": "/common.bundle.js",
+      "jsSpPath": "/sp.bundle.js",
+      "jsPcPath": "/pc.bundle.js",
+      "jsListSpPath": "/splist.bundle.js",
+      "jsListPcPath": "/pclist.bundle.js"
     }
   }
 }
