@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 var glob = require("glob");
+var banner = require("./config/banner.js");
 
 module.exports = {
   content: path.resolve(__dirname, 'source'),
@@ -42,7 +43,8 @@ module.exports = {
         unused: true,
         warnings: true
       }
-    })
+    }),
+    new webpack.BannerPlugin(banner)
   ]
 
 
