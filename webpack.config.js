@@ -7,26 +7,6 @@ module.exports = {
       'webpack/hot/dev-server',
       'webpack-hot-middleware/client',
       './source/javascripts/index.js'
-    ],
-    sp: [
-      'webpack/hot/dev-server',
-      'webpack-hot-middleware/client',
-      './source/javascripts/index-sp.js',
-    ],
-    pc: [
-      'webpack/hot/dev-server',
-      'webpack-hot-middleware/client',
-      './source/javascripts/index-pc.js',
-    ],
-    splist: [
-      'webpack/hot/dev-server',
-      'webpack-hot-middleware/client',
-      './source/javascripts/list-sp.js',
-    ],
-    pclist: [
-      'webpack/hot/dev-server',
-      'webpack-hot-middleware/client',
-      './source/javascripts/list-pc.js',
     ]
   },
   output: {
