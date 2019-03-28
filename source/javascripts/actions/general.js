@@ -10,6 +10,9 @@ const PREFIX = 'GENERAL';
 export const INIT = PREFIX + SEPARATOR + 'INIT';
 export const UPDATE_LOADING = PREFIX + SEPARATOR + 'UPDATE_LOADING';
 export const CONFIRM = PREFIX + SEPARATOR + 'CONFIRM';
+
+export const init = createAction(INIT);
+
 /**
  *
 export const init_status = createAsyncActions(INIT);
