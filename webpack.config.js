@@ -3,7 +3,7 @@ var path = require('path');
 
 module.exports = {
   entry: {
-    common: [
+    bundle: [
       'webpack/hot/dev-server',
       'webpack-hot-middleware/client',
       './source/javascripts/index.js'
@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '.dist'),
     publicPath: '/',
-    filename: '[name].bundle.js',
+    filename: '[name].js'
   },
   module: {
     loaders: [
@@ -30,4 +30,4 @@ module.exports = {
   ],
   watch: false,
   devtool: '#eval'
-}
+};
