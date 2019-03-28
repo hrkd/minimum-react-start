@@ -12,12 +12,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.tsx?$/,
         use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          }
+          loader: 'ts-loader'
         },
         exclude: /node_modules\/(?!(dom7|ssr-window|swiper)\/).*/
       }
@@ -27,6 +24,6 @@ module.exports = {
     fs: 'empty'
   },
   resolve: {
-    extensions: ['.js']
+    extensions: ['.ts', '.tsx', '.js']
   }
 };
