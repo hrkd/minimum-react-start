@@ -5,4 +5,5 @@ build/
 source/fonts/iconfont.*
 npm-debug.log
 .dist/
+.tmp/
 doc/
